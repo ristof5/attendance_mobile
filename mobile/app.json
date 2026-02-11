@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "warehouse_mobile",
-    "slug": "warehouse_mobile",
+    "name": "Employee Attendance",
+    "slug": "attendance_mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "warehousemobile",
+    "scheme": "attendance_mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -38,7 +38,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
