@@ -31,7 +31,7 @@ pool.getConnection((err, connection) => {
         console.error('Error:', err.message);
         
         // Kasih hint berdasarkan error code
-        if (err.code === 'ECONNREFUSED') {
+        if (err.code === 'ECONNREFUSED') { 
             console.error('💡 Solusi: Pastikan MySQL di XAMPP sudah running!');
         } else if (err.code === 'ER_ACCESS_DENIED_ERROR') {
             console.error('💡 Solusi: Cek username/password di .env');
